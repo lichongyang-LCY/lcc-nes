@@ -1,0 +1,35 @@
+{
+	"name": "lcc-nes",
+	"version": "0.0.1",
+	"description": "LCC NES插件",
+	"author": "Lujun",
+	"main": "main.ts",
+	"runtime-resource": {
+		"path": "assets",
+		"name": "assets"
+	},
+	"reload": {
+		"ignore": [
+			"assets/**/*",
+			"framework/**/*",
+			"docs/**/*"
+		]
+	},
+	"dependencies": {
+		"@types/node": "^14.14.6",
+		"gulp": "^4.0.2",
+		"gulp-clean": "^0.4.0",
+		"gulp-concat": "^2.6.1",
+		"gulp-debug": "^4.0.0",
+		"gulp-javascript-obfuscator": "^1.1.6",
+		"gulp-notify": "^3.2.0",
+		"gulp-rename": "^2.0.0",
+		"gulp-sourcemaps": "^2.6.5",
+		"gulp-typescript": "^6.0.0-alpha.1",
+		"gulp-uglify": "^3.0.2",
+		"merge2": "^1.4.1",
+		"through2": "^4.0.2",
+		"ts-node": "^9.0.0",
+		"yargs": "^16.0.3"
+	}
+}

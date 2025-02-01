@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+	"module":"system",
+    "lib": [ "dom", "es5", "es2015.promise" ],
+    "target": "es5",
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "removeComments" : true,
+	"inlineSourceMap" : true,
+	"inlineSources" : true
+  }
+}
